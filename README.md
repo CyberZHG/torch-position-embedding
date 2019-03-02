@@ -14,5 +14,11 @@ pip install torch-position-embedding
 ```python
 from torch_position-embedding import PositionEmbedding
 
-PositionEmbedding(in_features=768, head_num=12)
+PositionEmbedding(num_embeddings=5, embedding_dim=10, mode=PositionEmbedding.MODE_ADD)
 ```
+
+Modes:
+
+* `MODE_EXPAND`: negative indices could be used to represent relative positions.
+* `MODE_ADD`: add position embedding to the original tensor.
+* `MODE_CAT`: concatenate position embedding to the original tensor.
