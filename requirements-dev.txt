@@ -4,4 +4,4 @@ wheel>=0.31.0
 pycodestyle
 nose
 coverage
-keras-multi-head
+keras-pos-embd
