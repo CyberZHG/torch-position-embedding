@@ -12,7 +12,7 @@ pip install torch-position-embedding
 ## Usage
 
 ```python
-from torch_position-embedding import PositionEmbedding
+from torch_position_embedding import PositionEmbedding
 
 PositionEmbedding(num_embeddings=5, embedding_dim=10, mode=PositionEmbedding.MODE_ADD)
 ```
